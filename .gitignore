@@ -1,0 +1,9 @@
+# Xcode & SPM build artifacts
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.o
+
+# OS files
+.DS_Store

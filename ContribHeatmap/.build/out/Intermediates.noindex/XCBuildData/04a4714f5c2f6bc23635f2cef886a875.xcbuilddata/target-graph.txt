@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-Target 'test-runner-product' in project 'ContribHeatmapLogic'
-➜ Explicit dependency on target 'ContribHeatmapWidget' in project 'ContribHeatmapLogic'
-Target 'ContribHeatmapWidget' in project 'ContribHeatmapLogic' (no dependencies)

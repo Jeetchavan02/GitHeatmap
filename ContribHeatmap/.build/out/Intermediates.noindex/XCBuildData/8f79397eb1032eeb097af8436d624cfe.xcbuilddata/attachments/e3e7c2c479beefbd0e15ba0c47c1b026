@@ -1,4 +1,0 @@
-module ContribHeatmapWidget {
-header "ContribHeatmapWidget-Swift.h"
-export *
-}
