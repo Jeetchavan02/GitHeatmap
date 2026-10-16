@@ -1,0 +1,840 @@
+[
+  {
+    "isFramework" : true,
+    "moduleName" : "Accessibility",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Accessibility-1NQOCSLJUQBK2.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "ActivityKit",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/ActivityKit-3KJ01RGKV7MV0.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "AppIntents",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/AppIntents-3F6M0R21A7ZI.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "AppIntentsTypeSupport",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/AppIntentsTypeSupport-3V58G6A58FR86.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "AppKit",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/AppKit-1R2TQY1187OQG.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "ColorSync",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/ColorSync-1LCJRFCS0YGTH.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "Combine",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Combine-1RB8KRLVJE64R.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "ContribHeatmapWidget",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/Products\/Debug\/ContribHeatmapWidget.swiftmodule\/arm64-apple-macos.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "CoreAudio",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreAudio-3GNTXL6SJ84JQ.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "CoreData",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreData-39RFWNOWAN5X9.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "CoreFoundation",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreFoundation-2DF7H5KSZ3881.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "CoreGraphics",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreGraphics-2FEGP0P9LJX0P.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "CoreImage",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreImage-18RK8HLAA0XMI.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "CoreLocation",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreLocation-2L5JYBC0BCUAA.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "CoreMedia",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreMedia-R0WQ5NQRUTJS.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "CoreSpotlight",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreSpotlight-3IF7SKWRXPR1C.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "CoreText",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreText-XOSVSCEYPYY.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "CoreTransferable",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreTransferable-1CWSMZ3SOAQ68.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "CoreVideo",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreVideo-1JHKJXBWJ8OAV.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Darwin",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Darwin-299RVCWDUSQ2W.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "DataDetection",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/DataDetection-2YIH3SQ6I8ZAT.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "DeveloperToolsSupport",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/DeveloperToolsSupport-22HSZXSOT9TSC.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Dispatch",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Dispatch-32HJ8SHR17NU1.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Distributed",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Distributed-1ZM3DLLYVZ8OV.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "ExtensionFoundation",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/ExtensionFoundation-XSM3IPSUW03M.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "Foundation",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Foundation-XD911DL9WYIZ.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "IOKit",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/IOKit-16YH2BFTDEI4B.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "ImageIO",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/ImageIO-N58NNV41HYD.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Intents",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Intents-GNH33CLVH917.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "LightweightCodeRequirements",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/LightweightCodeRequirements-1S8MXP2UJ8O3W.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Metal",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Metal-2XL6OP2HEKNEL.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "Network",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Network-15YPMAKP4CA10.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "OSLog",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/OSLog-3SLK07G34E536.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "ObjectiveC",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/ObjectiveC-KOACXKEO724P.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Observation",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Observation-P3REE1AYTUEA.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "QuartzCore",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/QuartzCore-254UOJOES6DN7.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "RelevanceKit",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/RelevanceKit-1FPXG2G9S709D.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Spatial",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Spatial-37KH3MCVTT7FL.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Swift",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Swift-35LUD3M0XKUAM.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "SwiftOnoneSupport",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftOnoneSupport-R0YI4ZWD6WMX.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "SwiftUI",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftUI-3319SJ9JQQLCD.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "SwiftUICore",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftUICore-1G6YOZ9K4KU78.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "Symbols",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Symbols-1HM0LMKN1P383.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Synchronization",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Synchronization-2D1QSWYXOODWU.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "System",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/System-XA0I8JMGKM85.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "UniformTypeIdentifiers",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/UniformTypeIdentifiers-3TCHOPZVLGB7.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "WidgetKit",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/WidgetKit-3IY9PXWEI7TNU.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "XPC",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/XPC-FL428YU395EM.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "_AppIntents_SwiftUI",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_AppIntents_SwiftUI-2X25W6USLBIV8.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_Builtin_float",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_float-1KNOIKM5BUZA5.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_Concurrency",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_Concurrency-31NAG1SVHCZFZ.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation1",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation1-NL325ZZF49M2.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation2",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation2-1UXT2LP9PU458.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation3",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation3-2RPBAEIBH7T51.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_StringProcessing",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_StringProcessing-197VHIBMZRXV7.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "os",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/os-KATBPZIN7FY7.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "simd",
+    "modulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/simd-6N4RGJWUDJSA.swiftmodule"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Accessibility.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Accessibility-81UJQKEEG96VQ2G7EZIUI0KLO.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Accessibility"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/ActivityKit.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/ActivityKit-2YNA251GS4NGXM34Z4OMOEM2I.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ActivityKit"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/AppIntents.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/AppIntents-4GIAL6Z0K3SICCIN6XTEDBLA7.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "AppIntents"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/AppIntentsTypeSupport.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/AppIntentsTypeSupport-3CFRL62YLSUM8L3L8ON6X8CQC.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "AppIntentsTypeSupport"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/AppKit.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/AppKit-6QI0YQWIBFZCZ1EZH7TMNSP7H.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "AppKit"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/ApplicationServices.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/ApplicationServices-9JBXT1VOBR0YII4NJUURHGWVA.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ApplicationServices"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CFNetwork.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CFNetwork-AVDEX95JHQ15LB278D54H0KNJ.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CFNetwork"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/cups.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CUPS-9P4JT33RDTBHWCKF8AKBFZW37.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CUPS"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/ColorSync.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/ColorSync-ETCD9MCB1DBE7VN85MCDW04AA.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ColorSync"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreAudio.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreAudio-4BZ1H655AQMQMTOONLBUTPHQA.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreAudio"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreAudioTypes.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreAudioTypes-DI78WAHOGQKUN7NKVV0YF2IXP.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreAudioTypes"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreData.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreData-10E2K5PVH9P45VAT68WKDL08L.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreData"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreFoundation.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreFoundation-4S31RZI59CGVGBTFKME2X7KD8.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreFoundation"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreGraphics.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreGraphics-1XGWQGWKXGS2LOLXMSRFZZXC.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreGraphics"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreImage.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreImage-2Q0M14BH9Z84PO2E01J4XLWD8.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreImage"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreLocation.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreLocation-7F5OCCODLYO1PJ33Z5376KOOQ.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreLocation"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreMedia.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreMedia-5OYTFRQZSDA6D7TYTWFM9NISE.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreMedia"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreServices.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreServices-9DURQ6H93SSPY7X8RIG4006FE.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreServices"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreSpotlight.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreSpotlight-1V2WO03QOYSAF7XTCCTE0X4P.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreSpotlight"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreText.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreText-AJYO6KCVCEE9HJ5YS7TIGT3OU.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreText"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreTransferable.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreTransferable-8TP3OGKZ9JD1C7SV97HL37OPY.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreTransferable"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreVideo.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/CoreVideo-1UHTKUPBZ02YSQ2OCNLBQMUB.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreVideo"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/Darwin.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Darwin-5ZJPTH5DO0XTW5QP0YTXPQBQF.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Darwin"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/DataDetection.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/DataDetection-7TDQKPLNN7TONN3FC5H5PP1EI.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "DataDetection"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/DeveloperToolsSupport.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/DeveloperToolsSupport-7HKO6LUNZX547LOI1JJH5U2VI.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "DeveloperToolsSupport"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/DiskArbitration.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/DiskArbitration-EB2NFU4OB0OP9HSCWNWCX0UWE.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "DiskArbitration"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/dispatch.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Dispatch-4YK9X8GF7SGT19H1DSJU7W5ZK.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Dispatch"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/ExtensionFoundation.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/ExtensionFoundation-9DK64SEXWA7WJYG4IUJ4U824Z.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ExtensionFoundation"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Foundation.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Foundation-12CULH86UOUQDDY5XRX6H2NTY.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Foundation"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/IOKit.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/IOKit-5JIJC1JH4XVW4OCR3U0BKO7RA.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "IOKit"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/IOSurface.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/IOSurface-C44AVYEC96G8KZNC765W20DVB.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "IOSurface"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/ImageIO.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/ImageIO-72ZFAMMMQAPJGFUQDEFWPPYXJ.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ImageIO"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Intents.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Intents-IYAP3RT2PVJE038ZT6RU6K9B.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Intents"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinBasic.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/MachO-5U2YYKAT4BXR3GVKQJFG5PNHB.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "MachO"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Metal.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Metal-9R9IWETIU96YXSB04NVSQK1FK.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Metal"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Network.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Network-1VL2SA8VJQ0MR7LT9QA9RSEGF.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Network"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/OSLog.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/OSLog-DYE0PV8CZL350NMG9FEIKRLH3.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "OSLog"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/ObjectiveC.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/ObjectiveC-4L8O806A91HENNK38O2SZWRL6.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ObjectiveC"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/OpenGL.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/OpenGL-22ZF0E8TVD5S8CDQHY1GYX55U.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "OpenGL"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/QuartzCore.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/QuartzCore-1H041J4NK9KMWCLONEAOUJZ1K.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "QuartzCore"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/RelevanceKit.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/RelevanceKit-2T6N1WOKM5MGJWJROBUJSQN2N.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "RelevanceKit"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Security.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Security-9NWAT9VXA1KU9Z0KZ2EVQEPLE.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Security"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/Spatial\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Spatial-23KZ7287NLD0LFAA804LU599K.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Spatial"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftShims-3L3T7P4FDGG2NMFHU6J3E3F4F.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "SwiftShims"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/SwiftUI.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftUI-B8KF3NK00CNYJW3EFA78TMN9J.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "SwiftUI"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/SwiftUICore.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftUICore-BVTK95ET2N2XCH0Q6JOABG3ND.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "SwiftUICore"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Symbols.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/Symbols-CBB1PBTS37XMW297B620UDO0I.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Symbols"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/UniformTypeIdentifiers.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/UniformTypeIdentifiers-DLNEG92T0J0NX1GNP7UO731YC.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "UniformTypeIdentifiers"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/UserNotifications.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/UserNotifications-CTDA1YJ8KLQGQWAH3TZ0TC9NA.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "UserNotifications"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/WidgetKit.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/WidgetKit-C5LN0FJ1XJQ3V7UEMJROG3QY4.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "WidgetKit"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/xpc.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/XPC-BVFOSAO1G0OOP4U5W2W1SW9RS.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "XPC"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation1.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_AvailabilityInternal-CF1LHVAMPIRJ624G8CB9OFACH.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_AvailabilityInternal"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_float-7SRRTJTS9SIOQM0ST0IOTQLLU.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_float"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_intrinsics-6E9X9CF2X0BQX23C3N486LWZJ.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_intrinsics"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_inttypes-69R9ADKDBYCNNQNZIJSE3ZAOT.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_inttypes"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_limits-2KE89I8A0JRGUX0F8978VLZ90.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_limits"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdarg-1OQHBAX3CK7UN7AGLTKYOQ993.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdarg"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdatomic-AUE9HU2CLFA8VLGVK7JZS0ZL7.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdatomic"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdbool-6PFWZCJ3TL8WK6UZZW3HOL364.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdbool"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stddef-A73VM0SMPV076KAUPMI7WKA7U.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stddef"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdint-2RBYWF7BPLHYQRBXIDKRJAE2F.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdint"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_tgmath-AZGSH112XJIUL3L3Q4DOKS8MW.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_tgmath"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation1.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation1-8T125D3GBEOUJS9FYVS48YQB0.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation1"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation2.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation2-EZMJ7J7JM0J5XK196A1BOI340.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation2"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation3.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation3-1MQS600X3Q6AS5ELYAMIS5A1Z.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation3"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/_LocationEssentials.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_LocationEssentials-8MR41JHEXGL1NG6FQSRO5D72N.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_LocationEssentials"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/_SwiftConcurrencyShims-12V6C0ILF1GZNQ39VS1ZWB8YJ.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_SwiftConcurrencyShims"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/dnssd.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/dnssd-B3T2YEGUG5OKAO5KOTFK5NVVH.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "dnssd"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/launch.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/launch-D8BUZQX5SPBE65D9LJQ1ZIC8W.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "launch"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/libDER\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/libDER-904NT4SBZYDHRZ8SG6Z4SE7HE.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "libDER"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/libkern.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/libkern-ARA3JGRLXE2AG67YBNF7Z8JND.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "libkern"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/os.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/os-61O2O26MUOYDMC2C3XHX7T3L2.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "os"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/os.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/os_object-DJZIOZCRFS067A6BBQK9VY0E8.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "os_object"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/os.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/os_workgroup-5GUE26IBI3L31CRMBU1VFLW1L.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "os_workgroup"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/ptrauth-99U19BEBF5WYITQA0EX3IH1K7.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ptrauth"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/ptrcheck-7E8MLAJ1C4LSYYGZN583AYKT5.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ptrcheck"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/simd\/module.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/simd-9V2J4VD4WEN0HXV8S2BK65GS0.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "simd"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/c_standard_library.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/string_h-7WXIPKSTMKQM9T3UGIV9LFS23.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "string_h"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation2.modulemap",
+    "clangModulePath" : "\/Users\/jeetchavan\/Macos-Github-Widget\/ContribHeatmap\/.build\/out\/SDKExplicitPrecompiledModules\/sys_types-BWTJXDKW3GEECRV0EFSOFWW3L.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "sys_types"
+  }
+]

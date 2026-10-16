@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000001101 /* ContribHeatmapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000101 /* ContribHeatmapApp.swift */; };
+		000000000000000000001201 /* ContributionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000201 /* ContributionModels.swift */; };
+		000000000000000000001202 /* ContributionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000202 /* ContributionService.swift */; };
+		000000000000000000001203 /* ContributionCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000203 /* ContributionCache.swift */; };
+		000000000000000000001204 /* HeatmapIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000204 /* HeatmapIntent.swift */; };
+		000000000000000000001205 /* HeatmapProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000205 /* HeatmapProvider.swift */; };
+		000000000000000000001206 /* HeatmapGridBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000206 /* HeatmapGridBuilder.swift */; };
+		000000000000000000001207 /* HeatmapViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000207 /* HeatmapViews.swift */; };
+		000000000000000000001208 /* ContribHeatmapWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000208 /* ContribHeatmapWidget.swift */; };
+		000000000000000000001209 /* Assets.xcassets in Resources (Widget) */ = {isa = PBXBuildFile; fileRef = 000000000000000000000209 /* Assets.xcassets */; };
+		00000000000000000000120A /* ContribHeatmapWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000C2 /* ContribHeatmapWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		000000000000000000001401 /* HeatmapGridBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000401 /* HeatmapGridBuilderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CONTAINER_PROXY_WID /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0000000000000000000000A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0000000000000000000000C1;
+			remoteInfo = ContribHeatmapWidget;
+		};
+		CONTAINER_PROXY_TST /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0000000000000000000000A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0000000000000000000000C1;
+			remoteInfo = ContribHeatmapWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000101 /* ContribHeatmapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContribHeatmapApp.swift; sourceTree = "<group>"; };
+		000000000000000000000301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000000000000000000000302 /* ContribHeatmap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ContribHeatmap.entitlements; sourceTree = "<group>"; };
+		000000000000000000000201 /* ContributionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionModels.swift; sourceTree = "<group>"; };
+		000000000000000000000202 /* ContributionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionService.swift; sourceTree = "<group>"; };
+		000000000000000000000203 /* ContributionCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionCache.swift; sourceTree = "<group>"; };
+		000000000000000000000204 /* HeatmapIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapIntent.swift; sourceTree = "<group>"; };
+		000000000000000000000205 /* HeatmapProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapProvider.swift; sourceTree = "<group>"; };
+		000000000000000000000206 /* HeatmapGridBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapGridBuilder.swift; sourceTree = "<group>"; };
+		000000000000000000000207 /* HeatmapViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapViews.swift; sourceTree = "<group>"; };
+		000000000000000000000208 /* ContribHeatmapWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContribHeatmapWidget.swift; sourceTree = "<group>"; };
+		000000000000000000000209 /* Assets.xcassets (Widget) */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00000000000000000000020A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00000000000000000000020B /* ContribHeatmapWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ContribHeatmapWidget.entitlements; sourceTree = "<group>"; };
+		000000000000000000000401 /* HeatmapGridBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapGridBuilderTests.swift; sourceTree = "<group>"; };
+		0000000000000000000000B2 /* ContribHeatmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContribHeatmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000000000C2 /* ContribHeatmapWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ContribHeatmapWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000000000D2 /* ContribHeatmapWidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContribHeatmapWidgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0000000000000000000000B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0000000000000000000000C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0000000000000000000000D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0000000000000000000000A2 = {
+			isa = PBXGroup;
+			children = (
+				0000000000000000000000F1 /* ContribHeatmap */,
+				0000000000000000000000F2 /* ContribHeatmapWidget */,
+				0000000000000000000000F3 /* ContribHeatmapWidgetTests */,
+				0000000000000000000000F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0000000000000000000000F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0000000000000000000000B2 /* ContribHeatmap.app */,
+				0000000000000000000000C2 /* ContribHeatmapWidget.appex */,
+				0000000000000000000000D2 /* ContribHeatmapWidgetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0000000000000000000000F1 /* ContribHeatmap */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000101 /* ContribHeatmapApp.swift */,
+				000000000000000000000301 /* Assets.xcassets */,
+				000000000000000000000302 /* ContribHeatmap.entitlements */,
+			);
+			path = ContribHeatmap;
+			sourceTree = "<group>";
+		};
+		0000000000000000000000F2 /* ContribHeatmapWidget */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000201 /* ContributionModels.swift */,
+				000000000000000000000202 /* ContributionService.swift */,
+				000000000000000000000203 /* ContributionCache.swift */,
+				000000000000000000000204 /* HeatmapIntent.swift */,
+				000000000000000000000205 /* HeatmapProvider.swift */,
+				000000000000000000000206 /* HeatmapGridBuilder.swift */,
+				000000000000000000000207 /* HeatmapViews.swift */,
+				000000000000000000000208 /* ContribHeatmapWidget.swift */,
+				000000000000000000000209 /* Assets.xcassets */,
+				00000000000000000000020A /* Info.plist */,
+				00000000000000000000020B /* ContribHeatmapWidget.entitlements */,
+			);
+			path = ContribHeatmapWidget;
+			sourceTree = "<group>";
+		};
+		0000000000000000000000F3 /* ContribHeatmapWidgetTests */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000401 /* HeatmapGridBuilderTests.swift */,
+			);
+			path = ContribHeatmapWidgetTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0000000000000000000000B1 /* ContribHeatmap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0000000000000000000000B3 /* Build configuration list for PBXNativeTarget "ContribHeatmap" */;
+			buildPhases = (
+				0000000000000000000000B6 /* Sources */,
+				0000000000000000000000B8 /* Frameworks */,
+				0000000000000000000000B7 /* Resources */,
+				0000000000000000000000BA /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEP_WID /* PBXTargetDependency */,
+			);
+			name = ContribHeatmap;
+			packageProductDependencies = (
+			);
+			productName = ContribHeatmap;
+			productReference = 0000000000000000000000B2 /* ContribHeatmap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0000000000000000000000C1 /* ContribHeatmapWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0000000000000000000000C3 /* Build configuration list for PBXNativeTarget "ContribHeatmapWidget" */;
+			buildPhases = (
+				0000000000000000000000C6 /* Sources */,
+				0000000000000000000000C8 /* Frameworks */,
+				0000000000000000000000C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContribHeatmapWidget;
+			packageProductDependencies = (
+			);
+			productName = ContribHeatmapWidget;
+			productReference = 0000000000000000000000C2 /* ContribHeatmapWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		0000000000000000000000D1 /* ContribHeatmapWidgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0000000000000000000000D3 /* Build configuration list for PBXNativeTarget "ContribHeatmapWidgetTests" */;
+			buildPhases = (
+				0000000000000000000000D6 /* Sources */,
+				0000000000000000000000D7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEP_TST /* PBXTargetDependency */,
+			);
+			name = ContribHeatmapWidgetTests;
+			packageProductDependencies = (
+			);
+			productName = ContribHeatmapWidgetTests;
+			productReference = 0000000000000000000000D2 /* ContribHeatmapWidgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0000000000000000000000A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0000000000000000000000B1 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					0000000000000000000000C1 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					0000000000000000000000D1 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 0000000000000000000000C1;
+					};
+				};
+			};
+			buildConfigurationList = 0000000000000000000000E1 /* Build configuration list for PBXProject "ContribHeatmap" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0000000000000000000000A2;
+			productRefGroup = 0000000000000000000000F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0000000000000000000000B1 /* ContribHeatmap */,
+				0000000000000000000000C1 /* ContribHeatmapWidget */,
+				0000000000000000000000D1 /* ContribHeatmapWidgetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0000000000000000000000B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0000000000000000000000C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000001209 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0000000000000000000000B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000001101 /* ContribHeatmapApp.swift in Sources */,
+				000000000000000000001201 /* ContributionModels.swift in Sources */,
+				000000000000000000001202 /* ContributionService.swift in Sources */,
+				000000000000000000001203 /* ContributionCache.swift in Sources */,
+				000000000000000000001204 /* HeatmapIntent.swift in Sources */,
+				000000000000000000001205 /* HeatmapProvider.swift in Sources */,
+				000000000000000000001206 /* HeatmapGridBuilder.swift in Sources */,
+				000000000000000000001207 /* HeatmapViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0000000000000000000000C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000001201 /* ContributionModels.swift in Sources */,
+				000000000000000000001202 /* ContributionService.swift in Sources */,
+				000000000000000000001203 /* ContributionCache.swift in Sources */,
+				000000000000000000001204 /* HeatmapIntent.swift in Sources */,
+				000000000000000000001205 /* HeatmapProvider.swift in Sources */,
+				000000000000000000001206 /* HeatmapGridBuilder.swift in Sources */,
+				000000000000000000001207 /* HeatmapViews.swift in Sources */,
+				000000000000000000001208 /* ContribHeatmapWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0000000000000000000000D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000001401 /* HeatmapGridBuilderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0000000000000000000000BA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				00000000000000000000120A /* ContribHeatmapWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEP_WID /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0000000000000000000000C1 /* ContribHeatmapWidget */;
+			targetProxy = CONTAINER_PROXY_WID /* PBXContainerItemProxy */;
+		};
+		DEP_TST /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0000000000000000000000C1 /* ContribHeatmapWidget */;
+			targetProxy = CONTAINER_PROXY_TST /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0000000000000000000000E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSET_CATALOG_COMPILER_OPTIMIZATION = space;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		0000000000000000000000E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSET_CATALOG_COMPILER_OPTIMIZATION = space;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		0000000000000000000000B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_IDENTIFIER_PREFIX = "$(TeamIdentifierPrefix)";
+				ASSTES_CATALOG_COMPILER_OPTIMIZATION = space;
+				CODE_SIGN_ENTITLEMENTS = ContribHeatmap/ContribHeatmap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ContribHeatmap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Heatmap";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright Â© 2026";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LE_BUILD_SYSTEM_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.ContribHeatmap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		0000000000000000000000B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_IDENTIFIER_PREFIX = "$(TeamIdentifierPrefix)";
+				CODE_SIGN_ENTITLEMENTS = ContribHeatmap/ContribHeatmap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ContribHeatmap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Heatmap";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright Â© 2026";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LE_BUILD_SYSTEM_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.ContribHeatmap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		0000000000000000000000C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_IDENTIFIER_PREFIX = "$(TeamIdentifierPrefix)";
+				CODE_SIGN_ENTITLEMENTS = ContribHeatmapWidget/ContribHeatmapWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ContribHeatmapWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Contrib Heatmap";
+				LE_BUILD_SYSTEM_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.ContribHeatmap.ContribHeatmapWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		0000000000000000000000C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_IDENTIFIER_PREFIX = "$(TeamIdentifierPrefix)";
+				CODE_SIGN_ENTITLEMENTS = ContribHeatmapWidget/ContribHeatmapWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ContribHeatmapWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Contrib Heatmap";
+				LE_BUILD_SYSTEM_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.ContribHeatmap.ContribHeatmapWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		0000000000000000000000D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.ContribHeatmap.ContribHeatmapWidgetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = ContribHeatmapWidget;
+			};
+			name = Debug;
+		};
+		0000000000000000000000D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.ContribHeatmap.ContribHeatmapWidgetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = ContribHeatmapWidget;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0000000000000000000000E1 /* Build configuration list for PBXProject "ContribHeatmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0000000000000000000000E2 /* Debug */,
+				0000000000000000000000E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0000000000000000000000B3 /* Build configuration list for PBXNativeTarget "ContribHeatmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0000000000000000000000B4 /* Debug */,
+				0000000000000000000000B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0000000000000000000000C3 /* Build configuration list for PBXNativeTarget "ContribHeatmapWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0000000000000000000000C4 /* Debug */,
+				0000000000000000000000C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0000000000000000000000D3 /* Build configuration list for PBXNativeTarget "ContribHeatmapWidgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0000000000000000000000D4 /* Debug */,
+				0000000000000000000000D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0000000000000000000000A1 /* Project object */;
+}
