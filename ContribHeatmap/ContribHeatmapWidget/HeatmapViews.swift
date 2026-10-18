@@ -250,6 +250,13 @@ struct HeatmapWidgetView: View {
             .frame(width: geo.size.width, height: geo.size.height, alignment: .center)
         }
         .containerBackground(.fill.tertiary, for: .widget)
+        .widgetURL(profileURL)
+    }
+
+    private var profileURL: URL? {
+        let trimmed = entry.configuration.username.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmed.isEmpty else { return nil }
+        return URL(string: "https://github.com/\(trimmed)")
     }
 
     private func weekdayLabel(for row: Int) -> String {
