@@ -108,13 +108,13 @@ struct HeatmapHeader: View {
             if isSmall {
                 HStack(spacing: 0) {
                     Text("\(totalCount)")
-                        .font(.system(.caption, design: .rounded).weight(.semibold))
+                        .font(.system(.caption, design: .rounded).weight(.bold))
                         .foregroundStyle(.primary)
                         .widgetAccentable()
 
                     Text(" in \(weekCount)w")
-                        .font(.system(.caption, design: .rounded))
-                        .foregroundStyle(.secondary)
+                        .font(.system(.caption, design: .rounded).weight(.medium))
+                        .foregroundStyle(.primary.opacity(0.85))
                 }
                 .lineLimit(1)
                 .minimumScaleFactor(0.85)
@@ -122,21 +122,21 @@ struct HeatmapHeader: View {
                 Spacer(minLength: 0)
             } else {
                 Text(username)
-                    .font(.system(.caption, design: .rounded).weight(.semibold))
-                    .foregroundStyle(.secondary)
+                    .font(.system(.caption, design: .rounded).weight(.bold))
+                    .foregroundStyle(.primary)
                     .lineLimit(1)
 
                 Spacer(minLength: 8)
 
                 HStack(spacing: 0) {
                     Text("\(totalCount)")
-                        .font(.system(.caption, design: .rounded).weight(.semibold))
+                        .font(.system(.caption, design: .rounded).weight(.bold))
                         .foregroundStyle(.primary)
                         .widgetAccentable()
 
                     Text(" in \(weekCount)w")
-                        .font(.system(.caption, design: .rounded))
-                        .foregroundStyle(.secondary)
+                        .font(.system(.caption, design: .rounded).weight(.medium))
+                        .foregroundStyle(.primary.opacity(0.85))
                 }
                 .lineLimit(1)
             }
