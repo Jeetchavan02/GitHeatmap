@@ -10,6 +10,12 @@ struct ContribHeatmapApp: App {
     var body: some Scene {
         WindowGroup("GitHub Contribution Heatmap") {
             ContentView()
+                .onOpenURL { url in
+                    // When widget is tapped, forward URL to default browser
+                    if url.scheme == "https" || url.scheme == "http" {
+                        NSWorkspace.shared.open(url)
+                    }
+                }
         }
         .windowResizability(.contentSize)
     }

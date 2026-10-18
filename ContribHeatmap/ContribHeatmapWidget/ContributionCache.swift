@@ -30,12 +30,19 @@ actor ContributionCache {
 
     private var cacheFileURL: URL? {
         let fm = FileManager.default
-        guard let container = fm.urls(for: .applicationSupportDirectory, in: .userDomainMask).first else {
+        let appGroupID = "group.com.yourname.ContribHeatmap"
+        
+        let baseDir: URL
+        if let groupURL = fm.containerURL(forSecurityApplicationGroupIdentifier: appGroupID) {
+            baseDir = groupURL
+        } else if let container = fm.urls(for: .applicationSupportDirectory, in: .userDomainMask).first {
+            baseDir = container.appendingPathComponent("ContribHeatmapWidget", isDirectory: true)
+        } else {
             return nil
         }
-        let dir = container.appendingPathComponent("ContribHeatmapWidget", isDirectory: true)
-        try? fm.createDirectory(at: dir, withIntermediateDirectories: true)
-        return dir.appendingPathComponent(fileName)
+        
+        try? fm.createDirectory(at: baseDir, withIntermediateDirectories: true)
+        return baseDir.appendingPathComponent(fileName)
     }
 
     // MARK: - Read
