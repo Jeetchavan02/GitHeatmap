@@ -8,6 +8,7 @@ let package = Package(
         .library(name: "ContribHeatmapWidget", targets: ["ContribHeatmapWidget"]),
         .executable(name: "test-runner", targets: ["ContribHeatmapWidgetTests"]),
         .executable(name: "cli-heatmap", targets: ["ContribHeatmapCLI"]),
+        .executable(name: "preview-app", targets: ["ContribHeatmapPreview"]),
     ],
     targets: [
         .target(
@@ -39,5 +40,14 @@ let package = Package(
                 .swiftLanguageMode(.v6),
             ]
         ),
+        .executableTarget(
+            name: "ContribHeatmapPreview",
+            dependencies: ["ContribHeatmapWidget"],
+            path: "ContribHeatmapPreview",
+            swiftSettings: [
+                .swiftLanguageMode(.v6),
+            ]
+        ),
     ]
 )
+

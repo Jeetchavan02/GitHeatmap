@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		000000000000000000001101 /* ContribHeatmapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000101 /* ContribHeatmapApp.swift */; };
+		000000000000000000001102 /* Assets.xcassets in Resources (App) */ = {isa = PBXBuildFile; fileRef = 000000000000000000000301 /* Assets.xcassets */; };
 		000000000000000000001201 /* ContributionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000201 /* ContributionModels.swift */; };
 		000000000000000000001202 /* ContributionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000202 /* ContributionService.swift */; };
 		000000000000000000001203 /* ContributionCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000203 /* ContributionCache.swift */; };
@@ -249,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000000000000000000001102 /* Assets.xcassets in Resources (App) */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +538,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.ContribHeatmap.ContribHeatmapWidgetTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -550,6 +553,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.ContribHeatmap.ContribHeatmapWidgetTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -4,6 +4,7 @@
 
 import SwiftUI
 import AppKit
+import WidgetKit
 @testable import ContribHeatmapWidget
 
 @main
@@ -18,7 +19,7 @@ struct ContribHeatmapPreviewApp: App {
 }
 
 struct ContentView: View {
-    @State private var username: String = "octocat"
+    @State private var username: String = "Jeetchavan02"
     @State private var isLoading: Bool = false
     @State private var errorMessage: String? = nil
     @State private var days: [ContributionDay] = []
@@ -63,6 +64,7 @@ struct ContentView: View {
                 }
                 .disabled(isLoading || username.trimmingCharacters(in: .whitespaces).isEmpty)
                 .buttonStyle(.borderedProminent)
+                .tint(.green)
             }
             .padding(.horizontal)
             .padding(.top, 16)
@@ -70,7 +72,7 @@ struct ContentView: View {
             if let error = errorMessage {
                 Text(error)
                     .font(.callout)
-                    .foregroundStyle(.red)
+                    .foregroundStyle(.orange)
                     .padding(.horizontal)
             }
 
@@ -91,28 +93,26 @@ struct ContentView: View {
                         }
 
                         ZStack {
-                            RoundedRectangle(cornerRadius: 18, style: .continuous)
-                                .fill(Color(nsColor: .windowBackgroundColor).opacity(0.8))
+                            RoundedRectangle(cornerRadius: 22, style: .continuous)
+                                .fill(Color(nsColor: .windowBackgroundColor).opacity(0.85))
                                 .overlay(
-                                    RoundedRectangle(cornerRadius: 18, style: .continuous)
-                                        .strokeBorder(Color.white.opacity(0.15), lineWidth: 1)
+                                    RoundedRectangle(cornerRadius: 22, style: .continuous)
+                                        .strokeBorder(Color.white.opacity(0.12), lineWidth: 1)
                                 )
-                                .shadow(color: .black.opacity(0.2), radius: 10, y: 4)
+                                .shadow(color: .black.opacity(0.2), radius: 12, y: 5)
 
-                            VStack(alignment: .leading, spacing: 6) {
-                                HStack {
-                                    Text(username)
-                                        .font(.caption2.bold())
-                                    Spacer()
-                                    Text("\(HeatmapGridBuilder.totalContributions(in: smallWeeks)) contribs")
-                                        .font(.caption2)
-                                        .foregroundStyle(.secondary)
-                                }
-                                .padding(.horizontal, 4)
-
-                                HeatmapGrid(weeks: smallWeeks, renderingMode: .fullColor)
-                            }
-                            .padding(12)
+                            HeatmapWidgetView(
+                                entry: HeatmapEntry(
+                                    date: Date(),
+                                    configuration: HeatmapConfigurationIntent(username: username),
+                                    weeks: smallWeeks,
+                                    totalCount: HeatmapGridBuilder.totalContributions(in: smallWeeks),
+                                    isStale: false,
+                                    staleSince: nil,
+                                    errorMessage: nil
+                                ),
+                                customFamily: .systemSmall
+                            )
                         }
                         .frame(width: 170, height: 170)
                     }
@@ -129,28 +129,26 @@ struct ContentView: View {
                         }
 
                         ZStack {
-                            RoundedRectangle(cornerRadius: 18, style: .continuous)
-                                .fill(Color(nsColor: .windowBackgroundColor).opacity(0.8))
+                            RoundedRectangle(cornerRadius: 22, style: .continuous)
+                                .fill(Color(nsColor: .windowBackgroundColor).opacity(0.85))
                                 .overlay(
-                                    RoundedRectangle(cornerRadius: 18, style: .continuous)
-                                        .strokeBorder(Color.white.opacity(0.15), lineWidth: 1)
+                                    RoundedRectangle(cornerRadius: 22, style: .continuous)
+                                        .strokeBorder(Color.white.opacity(0.12), lineWidth: 1)
                                 )
-                                .shadow(color: .black.opacity(0.2), radius: 10, y: 4)
+                                .shadow(color: .black.opacity(0.2), radius: 12, y: 5)
 
-                            VStack(alignment: .leading, spacing: 6) {
-                                HStack {
-                                    Text(username)
-                                        .font(.caption.bold())
-                                    Spacer()
-                                    Text("\(HeatmapGridBuilder.totalContributions(in: mediumWeeks)) contributions in last 20 weeks")
-                                        .font(.caption2)
-                                        .foregroundStyle(.secondary)
-                                }
-                                .padding(.horizontal, 4)
-
-                                HeatmapGrid(weeks: mediumWeeks, renderingMode: .fullColor)
-                            }
-                            .padding(14)
+                            HeatmapWidgetView(
+                                entry: HeatmapEntry(
+                                    date: Date(),
+                                    configuration: HeatmapConfigurationIntent(username: username),
+                                    weeks: mediumWeeks,
+                                    totalCount: HeatmapGridBuilder.totalContributions(in: mediumWeeks),
+                                    isStale: false,
+                                    staleSince: nil,
+                                    errorMessage: nil
+                                ),
+                                customFamily: .systemMedium
+                            )
                         }
                         .frame(width: 360, height: 170)
                     }
@@ -160,17 +158,20 @@ struct ContentView: View {
 
             Spacer(minLength: 12)
         }
-        .frame(width: 440, height: 530)
+        .frame(width: 500, height: 550)
         .task {
             await fetchContributions()
         }
     }
 
     private func fetchContributions() async {
+        let trimmed = username.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmed.isEmpty else { return }
+
         isLoading = true
         errorMessage = nil
         do {
-            let fetched = try await ContributionService.fetchContributions(for: username)
+            let fetched = try await ContributionService.shared.fetch(username: trimmed)
             self.days = fetched
             self.totalContributions = fetched.reduce(0) { $0 + $1.count }
         } catch {
@@ -180,3 +181,4 @@ struct ContentView: View {
         isLoading = false
     }
 }
+
