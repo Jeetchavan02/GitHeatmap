@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="screenshots/icon.png" width="128" height="128" alt="GitHub Heatmap macOS Widget Icon" />
+  <img src="screenshots/icon.png" width="128" height="128" alt="GitHeatmap — macOS GitHub Heatmap Widget Icon" />
 </p>
 
-<h1 align="center">macOS GitHub Contribution Heatmap Widget</h1>
+<h1 align="center">GitHeatmap — GitHub Contribution Heatmap Widget for macOS</h1>
 
 <p align="center">
   <b>v1.0.0 (Production Release)</b><br/>
