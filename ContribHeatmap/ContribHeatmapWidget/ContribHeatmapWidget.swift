@@ -19,7 +19,7 @@ struct ContribHeatmapWidget: Widget {
         ) { entry in
             HeatmapWidgetView(entry: entry)
         }
-        .configurationDisplayName("GitHub Contributions")
+        .configurationDisplayName("GitHeatmap")
         .description("Your GitHub contribution heatmap.")
         .supportedFamilies([.systemSmall, .systemMedium])
         .contentMarginsDisabled()
