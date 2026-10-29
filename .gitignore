@@ -20,3 +20,4 @@ Packages/
 # App-specific caches
 *.swp
 *~
+*.dmg
