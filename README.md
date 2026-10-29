@@ -86,18 +86,18 @@ Test any GitHub user profile in real-time, inspect both Small and Medium widget 
 
 No Xcode, tools, or dependencies required!
 
-1. Download the latest release: **[ContribHeatmap-v1.0.0.dmg](https://github.com/Jeetchavan02/Macos-Github-Widget/releases/latest)**.
-2. Double-click the `.dmg` file to open it, then drag **ContribHeatmap** into your **Applications** folder.
-3. Open `ContribHeatmap.app` once from Applications to register the widget extension with macOS.
+1. Download the latest release: **[GitHeatmap-v1.0.0.dmg](https://github.com/Jeetchavan02/Macos-Github-Widget/releases/latest)**.
+2. Double-click the `.dmg` file to open it, then drag **GitHeatmap** into your **Applications** folder.
+3. Open `GitHeatmap.app` once from Applications to register the widget extension with macOS.
    > **Note for First Launch:** Because this is an open-source app distributed outside the App Store, macOS Gatekeeper may show a notice:
-   > - Right-click (or Control-click) `ContribHeatmap.app` in Applications → click **Open** → click **Open**.
-   > - Or run this in Terminal: `xattr -cr /Applications/ContribHeatmap.app`
+   > - Right-click (or Control-click) `GitHeatmap.app` in Applications → click **Open** → click **Open**.
+   > - Or run this in Terminal: `xattr -cr /Applications/GitHeatmap.app`
 
 4. **Add the Widget to Your Desktop**:
    - Right-click anywhere on your macOS desktop and select **Edit Widgets…** (or open the Notification Center).
-   - In the widget gallery search bar, search for `ContribHeatmap` or `GitHub`.
+   - In the widget gallery search bar, search for `GitHeatmap` or `GitHub`.
    - Choose either the **Small** or **Medium** widget and drag it onto your desktop.
-   - Right-click the placed widget and click **Edit "Contrib Heatmap"** to enter your GitHub username.
+   - Right-click the placed widget and click **Edit "GitHeatmap"** to enter your GitHub username.
 
 ---
 
