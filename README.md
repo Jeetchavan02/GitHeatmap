@@ -82,7 +82,28 @@ Test any GitHub user profile in real-time, inspect both Small and Medium widget 
 
 ## 📦 Installation & Setup
 
-### Method 1: Build & Install via Xcode (Recommended)
+### Method 1: Download Pre-Built DMG (Recommended)
+
+No Xcode, tools, or dependencies required!
+
+1. Download the latest release: **[ContribHeatmap-v1.0.0.dmg](https://github.com/Jeetchavan02/Macos-Github-Widget/releases/latest)**.
+2. Double-click the `.dmg` file to open it, then drag **ContribHeatmap** into your **Applications** folder.
+3. Open `ContribHeatmap.app` once from Applications to register the widget extension with macOS.
+   > **Note for First Launch:** Because this is an open-source app distributed outside the App Store, macOS Gatekeeper may show a notice:
+   > - Right-click (or Control-click) `ContribHeatmap.app` in Applications → click **Open** → click **Open**.
+   > - Or run this in Terminal: `xattr -cr /Applications/ContribHeatmap.app`
+
+4. **Add the Widget to Your Desktop**:
+   - Right-click anywhere on your macOS desktop and select **Edit Widgets…** (or open the Notification Center).
+   - In the widget gallery search bar, search for `ContribHeatmap` or `GitHub`.
+   - Choose either the **Small** or **Medium** widget and drag it onto your desktop.
+   - Right-click the placed widget and click **Edit "Contrib Heatmap"** to enter your GitHub username.
+
+---
+
+### Method 2: Build & Install via Xcode
+
+If you prefer building from source:
 
 1. **Clone the Repository**:
    ```bash
@@ -100,15 +121,9 @@ Test any GitHub user profile in real-time, inspect both Small and Medium widget 
    - Press **`Cmd + R`** (or click the Run arrow).
    - The app will compile and launch, registering the widget extension with macOS.
 
-4. **Add the Widget to Your Desktop**:
-   - Right-click anywhere on your macOS desktop and select **Edit Widgets…** (or open the Notification Center).
-   - In the widget gallery search bar, type `Contrib Heatmap`.
-   - Select either the **Small** or **Medium** widget and drag it onto your desktop.
-   - Right-click the placed widget and click **Edit "Contrib Heatmap"** to enter your GitHub username.
-
 ---
 
-### Method 2: Command-Line Build & Run
+### Method 3: Command-Line Build & Run
 
 You can build and run without opening Xcode:
 
