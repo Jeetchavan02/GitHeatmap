@@ -82,7 +82,19 @@ Test any GitHub user profile in real-time, inspect both Small and Medium widget 
 
 ## 📦 Installation & Setup
 
-### Method 1: Download Pre-Built DMG (Recommended)
+### Quick Install (Terminal)
+
+Paste this into Terminal. It downloads the latest release, checks it against the SHA-256 digest GitHub published, verifies the app's signature, and only then installs it:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Jeetchavan02/GitHeatmap/main/install.sh | bash
+```
+
+To run the checks without installing anything, download [`install.sh`](install.sh) and run `bash install.sh --verify-only`.
+
+---
+
+### Method 1: Download Pre-Built DMG
 
 No Xcode, tools, or dependencies required!
 
